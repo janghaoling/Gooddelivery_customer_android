@@ -1,0 +1,3 @@
+include ':transbank-sdk-java-1.7.1-with-all-deps-included'
+include ':onepay-release'
+include ':app'

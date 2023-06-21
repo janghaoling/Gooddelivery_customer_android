@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Good Delivery</string>
+
+    <string name="facebook_app_id">335646571085314</string>
+    <string name="fb_login_protocol_scheme">fb335646571085314</string>
+
+
+    <string name="login">Iniciar sesión</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="name">Nombre</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="mobile_number">Número de celular</string>
+    <string name="email_address">Correo electrónico</string>
+    <string name="enter_email_address">Ingrese el correo electrónico</string>
+    <string name="confirm">Confirmar</string>
+    <string name="password">Contraseña</string>
+    <string name="register_this_account">"No tienes una cuenta?"</string>
+    <string name="let_impress_you">"Vamos a impresionarte con nuestros platos."</string>
+    <string name="hundred_restaurant">"100 Restaurantes"</string>
+    <string name="discover">"Descubre"</string>
+    <string name="otp">Otp</string>
+    <string name="offers_near_you">"Ofertas cerca de ti"</string>
+    <string name="filter">Filtrar</string>
+    <string name="forgot_password">Se te olvidó tu contraseña?</string>
+    <string name="manage_address">Administrar dirección</string>
+    <string name="payment">Pago</string>
+    <string name="add_new_card">Agregar nueva tarjeta</string>
+    <string name="set_delivery_location">Establecer ubicación de entrega</string>
+    <string name="search_place">"Busqueda por área, nombre de la calle ..."</string>
+    <string name="change_password">"Cambiar la contraseña"</string>
+    <string name="favourites">"Favoritos"</string>
+    <string name="filters">"Filtros"</string>
+    <string name="reset">"Reiniciar"</string>
+    <string name="edit_account">"Editar cuenta"</string>
+    <string name="address">"Dirección"</string>
+    <string name="restaurant">"Sangeetha"</string>
+    <string name="current_location">Ubicación actual</string>
+    <string name="enable_location_services">Servicio de localización activado</string>
+    <string name="dish">"Plato"</string>
+    <string name="home">"Casa"</string>
+    <string name="work">"Trabajo"</string>
+    <string name="other">"Otro"</string>
+    <string name="save">"Guardar"</string>
+    <string name="saved_addresses">"Direcciones guardadas"</string>
+    <string name="edit">"Editar"</string>
+    <string name="delete">"Eliminar"</string>
+    <string name="delete_confirm">"¿De verdad quieres eliminarlo?"</string>
+    <string name="orders">"Pedidos"</string>
+    <string name="apply_filter">"Aplicar filtro"</string>
+    <string name="login_with_social">Iniciar usando</string>
+    <string name="order">Pedido</string>
+
+    <string name="large_text">
+        "Material is the metaphor.\n"
+        <!--"A material metaphor is the unifying theory of a rationalized space and a system of motion."-->
+        <!--"The material is grounded in tactile reality, inspired by the study of paper and ink, yet "-->
+        "seams, divides space, and indicates moving parts."
+    </string>
+
+
+    <string name="getting_address">"Obtener dirección"</string>
+    <string name="fresh">F r e s c o</string>
+    <string name="fresh_description">Descubre nuevos platos todos los días y celebra con tu restaurante favorito</string>
+    <string name="signin">Iniciar sesión</string>
+    <string name="sign_in">Iniciar sesión</string>
+    <string name="signup">Registrarse</string>
+    <string name="search">B U S C A R</string>
+    <string name="search_description">Observa los menús, fotos y reseñas de los restaurantes a tu alrededor.</string>
+    <string name="bookmark">M A R C A D O R</string>
+    <string name="bookmark_description">Agregue los lugares que desea visitar en el futuro en su marcador</string>
+    <string name="already_you_have_account">¿Ya tienes una cuenta?</string>
+    <string name="register_using">Regístrate usando</string>
+    <string name="signin_here">Inicie sesión aquí</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="next">Siguiente</string>
+    <string name="verification_code_txt">Código de verificación</string>
+    <string name="continue_txt">Continuar</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="new_password">Nueva contraseña</string>
+    <string name="change">Cambiar</string>
+    <string name="register">Registrar</string>
+    <string name="cart_error_title">La buena comida siempre se está cocinando</string>
+    <string name="cart_error_description">Por favor ordena los platos</string>
+    <string name="proceed_to_pay">Proceder con el pago</string>
+    <string name="add_address">Agregar dirección</string>
+    <string name="change_address">Cambiar dirección</string>
+    <string name="old_password">Contraseña anterior</string>
+    <string name="select_address">Seleccionar dirección</string>
+    <string name="submit">Enviar</string>
+    <string name="enter_secret_key">Ingresa tu clave secreta</string>
+    <string name="account">Cuenta</string>
+    <string name="login_or_sign_up_to_place_order">Inicia sesión o regístrate para realizar tu pedido</string>
+    <string name="please_login_and_order_dishes">Por favor inicia sesión para ordenar nuestros platos</string>
+    <string name="manage_address_error_title">¡TOC TOC! ¿Quién está ahí?</string>
+    <string name="manage_address_error_description">Guarda tu dirección, te ayuda a ordenar más rápido</string>
+
+    <!--Order Flow Title-->
+    <string name="order_placed">Pedido realizado</string>
+    <string name="order_confirmed">Pedido confirmado</string>
+    <string name="order_processed">Pedido procesado</string>
+    <string name="order_pickedup">Pedido recogido</string>
+    <string name="order_delivered">Pedido entregado</string>
+    <string name="order_cancelled">Pedido cancelado</string>
+
+    <!--Order Flow Description-->
+    <string name="description_1">Hemos recibido tu pedido.</string>
+    <string name="description_2">Tu pedido ha sido confirmado.</string>
+    <string name="description_3">Tu comida se está cocinando.</string>
+    <string name="description_4">Tu comida está en camino.</string>
+    <string name="description_5">Disfruta tu comida.</string>
+
+    <!--Past Order Page-->
+    <string name="order_delivered_successfully">Pedido entregado con éxito</string>
+    <string name="order_delivered_successfully_on">Pedido entregado con éxito a </string>
+    <string name="address_hint">Eje: Casa de mi amigo</string>
+    <string name="cancel">Cancelar</string>
+
+    <!--PAYMENT SCREEN-->
+    <string name="wallet_amount">Cantidad en la billetera</string>
+    <string name="card">TARJETA</string>
+    <string name="pay_on_delivery">PAGAR CUANDO RECIBA</string>
+    <string name="by_cash">En efectivo</string>
+    <string name="walletHistory">BILLETERA</string>
+    <string name="history">Historial</string>
+    <string name="add">Agregar</string>
+    <string name="payment_options">Opciones de pago</string>
+    <string name="promotion_details">Detalles de la promoción</string>
+    <string name="add_money">Agregar cantidad</string>
+    <string name="enter_the_amount">Ingresa la cantidad</string>
+    <string name="pay">Pagar</string>
+    <string name="promo_apply_text">Aplica el código de promoción para aprovechar las mejores ofertas</string>
+    <string name="apply">Aplicar</string>
+    <string name="promocode">Código promocional</string>
+    <string name="use_wallet">Usar billetera</string>
+    <string name="google_login_failed">Error de inicio de sesión en Google</string>
+    <string name="dispute">Disputa</string>
+
+    <!--    Check Internet Conneciton  -->
+    <string name="oops_connect_your_internet">Oops ! no tienes conexión.</string>
+    <string name="retry">Intenta de nuevo</string>
+    <string name="server_down">Servidor caído</string>
+    <string name="no_internet_found_check_your_internet_connection">No tienes internet. \ Comprueba tu conexión o vuelve a intentarlo</string>
+
+    <!--   Braintree  -->
+
+    <string name="loading">Cargando....</string>
+    <string name="paypal_billing_agreement">Acuerdo de pago</string>
+    <string name="nonce">Mientras tanto</string>
+
+    <!-- CreateTransactionActivity -->
+    <string name="processing_transaction">Procesando transacción</string>
+    <string name="transaction_failed">Transacción fallida</string>
+    <string name="transaction_complete">Transacción completada</string>
+
+    <!-- Alert Dialog -->
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="replace_cart_item">Reemplazar un producto?</string>
+    <string name="do_you_want_to_discart_the_selection_and_add_dishes_from_the_restaurant">¿Deseas descartar los platos seleccionados y agregar platos de este restaurante?</string>
+    <string name="enter_card_details">Datos de la tarjeta no válidos</string>
+    <string name="add_card">Agregar tarjeta</string>
+    <string name="okay">De acuerdo</string>
+    <string name="delivery_time">El tiempo de entrega</string>
+
+    <!-- PROMOCODE  -->
+
+    <string name="promo_code_apply_successfully">Se aplica el código de promoción y el monto de la oferta se agrega a tu billetera.</string>
+
+    <!--  SIGN UP  -->
+    <string name="please_enter_username">Por favor, ingresa tu nombre de usuario</string>
+    <string name="please_enter_your_email">Por favor ingresa tu correo electrónico</string>
+    <string name="please_enter_valid_email">Por favor ingresa un correo electrónico válido</string>
+    <string name="please_enter_your_mobile_number">Por favor, ingresa tu número de celular</string>
+    <string name="please_enter_password">Please enter your password</string>
+    <string name="please_enter_your_confirm_password">Por favor ingresa tu contraseña de confirmación</string>
+    <string name="password_and_confirm_password_doesnot_match">Las contraseñas no coinciden</string>
+    <string name="profile_updated_successfully">perfil actualizado con éxito.</string>
+    <string name="network_error_toast">Algo salió mal</string>
+    <string name="add_ons">Adiciones</string>
+    <string name="custom_notes">Notas personalizadas</string>
+    <string name="write_something">Escribe algo</string>
+    <string name="product">Producto</string>
+    <string name="customize">Personalizar</string>
+    <string name="your_previous_customization">Tu personalización anterior</string>
+    <string name="i_will_choose">Yo elegiré</string>
+    <string name="repeat">Repetir</string>
+    <string name="remove_item_from_cart">Eliminar producto del carrito</string>
+    <string name="remove_item_from_cart_description">El producto tiene personalización múltiple agregada. Proceder al carrito para eliminar el producto?</string>
+    <string name="add_custom_notes">Agregar notas personalizadas</string>
+    <string name="featured_products">Productos Destacados</string>
+    <string name="reorder_confirm_message">Tu carrito contiene platos de %1$s. ¿Desea descartar la selección y agregar platos de %2$s ?</string>
+    <string name="no_result">No hay resultados</string>
+    <string name="what_is_love">Favoritos</string>
+    <string name="fav_description">Una vez que haya un restaurante favorito, aparecerá aquí..</string>
+    <string name="close">Cerrar</string>
+    <string name="no_addons">Sin adiciones</string>
+    <string name="add_new_address">Agregar nueva dirección</string>
+    <string name="back">Atras</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="looks_empty">PARECE VACÍO!</string>
+    <string name="order_list_empty_description">Hay muchas cosas deliciosas por ahí. Elige algunas.</string>
+    <string name="past_orders">Pedidos anteriores</string>
+    <string name="reason">Razón</string>
+    <string name="dispute_reason_description">¿Tienes algún problema? Comunícate con nosotros, ¡estaremos encantados de ayudarte!</string>
+    <string name="chat_us">Escríbenos</string>
+    <string name="please_type_verification_code">Por favor ingresa el código de verificación</string>
+    <string name="sent_to_your">Enviado a</string>
+    <string name="did_not_get_otp">No llegó el código OTP</string>
+    <string name="resend_otp">Reenviar el código OTP</string>
+    <string name="add_item">Agregar producto</string>
+    <string name="promotion_list_empty">Lista de promocion vacía</string>
+    <string name="promotion_empty_description">Una vez que tenga el código de promoción, aparecerá aquí.</string>
+    <string name="skip">Omitir</string>
+    <string name="food">Comida</string>
+    <string name="help">Ayuda</string>
+    <string name="type_a_message">Escribe un mensaje</string>
+    <string name="my_account">Mi cuenta</string>
+    <string name="reorder">Pedir de nuevo</string>
+    <string name="please_login">Por favor Iniciar sesión</string>
+
+    <string name="no_restaurant_found">Sin restaurantes!</string>
+    <string name="no_restaurant_found_in_your_location">Mira si algún otro filtro funciona.</string>
+    <string name="something_went_wrong">Algo salió mal!</string>
+    <string name="closed">Cerrado</string>
+
+
+    <plurals name="item">
+        <item quantity="one">%d Producto</item>
+        <item quantity="other">%d Producto</item>
+    </plurals>
+    <plurals name="add_ons">
+        <item quantity="one">+%d Adicion</item>
+        <item quantity="other">+%d Adiciones</item>
+    </plurals>
+
+
+    <!-- Map -->
+    <string name="map_key" translatable="false">AIzaSyB60adH_3ILPmi8W5xrHlipTBQXEJjAAyg</string>
+
+    <string name="registered_successfully">Estás registrado exitosamente</string>
+
+    <string-array name="languages">
+        <item>Inglés</item>
+        <item>Español</item>
+    </string-array>
+
+    <string-array name="profile_settings">
+        <item>"Administrar dirección"</item>
+        <item>"Favoritos"</item>
+        <item>"Pago"</item>
+        <item>"Mis pedidos"</item>
+        <!--<item>"Notificaciones"</item>-->
+        <item>"Códigos Promocionales"</item>
+        <item>"Idioma"</item>
+        <!--<item>"Change Password"</item>-->
+    </string-array>
+
+    <string name="change_language">Cambiar Idioma</string>
+    <string name="search_hint">Buscar</string>
+    <string name="manage_address_hint">Dirección, Favoritos, Pagos, Pedidos, Promociones</string>
+    <string name="save_delivery_location">Guardar dirección de entrega</string>
+    <string name="house_flat_no">Dirección exacta</string>
+    <string name="landmark">Urbanización / Barrio</string>
+    <string name="please_enter_house_flat">Por favor escribe N° Apto / Casa</string>
+    <string name="please_enter_landmark">Por favor escribe Urbanización / Barrio</string>
+    <string name="please_enter_address">Por favor ingrese la dirección</string>
+    <string name="lat_lng_cannot_be_empty">Lat &amp; Lng no se pueden dejar en blanco</string>
+    <string name="save_as">Guardar como</string>
+    <string name="discount_on_all_orders">% de descuento en todos los pedidos</string>
+    <string name="product_item">Producto</string>
+    <string name="view_cart">Ver carrito</string>
+    <string name="customizable">Personalizar</string>
+    <string name="item_total">Total productos</string>
+    <string name="service_tax">Impuesto</string>
+    <string name="delivery_charges">Envío</string>
+    <string name="discount">Descuento</string>
+    <string name="wallet_detection">Detección de billetera</string>
+    <string name="total">Total</string>
+    <string name="to_pay">Pago total</string>
+    <string name="you_seem_to_be_in_new_location">parece que estás en una nueva ubicación</string>
+    <string name="enter_your_notes">Ingresa tus notas</string>
+    <string name="enter_your_description">Ingresa la descripción</string>
+    <string name="details">Detalles</string>
+    <string name="others">Otros</string>
+    <string name="complained">Reclamo</string>
+    <string name="cancelled">Cancelado</string>
+    <string name="refund">Reembolso</string>
+    <string name="dispute_created_successfully">Disputa creada con éxito</string>
+
+    <string name="feedback">Califícanos</string>
+    <string name="how_was_delivery">¿Cómo te fue con la entrega?</string>
+    <string name="terrible">Terrible</string>
+    <string name="bad">Mal</string>
+    <string name="okay_feedback">Bien</string>
+    <string name="good">Muy bien</string>
+    <string name="superb">Estupendo</string>
+    <string name="give_some_feedback">Deja tus comentarios</string>
+    <string name="are_you_want_logout">¿Estás seguro que quieres cerrar sesión?</string>
+    <string name="show_restaurant_with">Mostrar restaurantes</string>
+    <string name="offers">Ofertas</string>
+    <string name="pure_veg">Vegetarianos</string>
+    <string name="cuisines">Cocinas</string>
+    <string name="available">disponible</string>
+    <string name="unavailable">indisponible</string>
+    <string name="update_address">Actualizar dirección</string>
+    <string name="are_you_want_update_address">¿Está seguro de que desea actualizar su dirección guardada?</string>
+
+</resources>

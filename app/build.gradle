@@ -1,0 +1,145 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.27.1'
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+    google()
+}
+
+android {
+    signingConfigs {
+        debug {
+            storeFile file('D:\\Project\\2020.9\\Good_delivery(Chile)\\Android\\gooddelivery_customer\\jks\\customer.jks')
+            storePassword 'customer'
+            keyAlias 'customer'
+            keyPassword 'customer'
+        }
+    }
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "com.gooddelivery.user"
+        minSdkVersion 19
+        targetSdkVersion 29
+        vectorDrawables.useSupportLibrary = true
+        versionCode 11
+        versionName "2.0"
+        multiDexEnabled true
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+    aaptOptions {
+        cruncherEnabled = false
+    }
+    buildTypes {
+
+        debug{
+            manifestPlaceholders = [crashlyticsEnabled:false]
+        }
+
+        release {
+            manifestPlaceholders = [crashlyticsEnabled:true]
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    lintOptions {
+        abortOnError false
+
+
+    }
+    configurations {
+        all {
+            exclude module: 'httpclient'
+            exclude module: 'commons-logging'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "${variant.applicationId}_V${variant.versionCode}_VN-${variant.versionName}_" + new Date().format('yyyy-MM-dd') + ".apk"
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    //Firebase Crash Reporting
+    implementation 'com.google.firebase:firebase-crash:16.2.1'
+    implementation 'com.google.firebase:firebase-auth:16.2.1'
+    implementation 'com.google.firebase:firebase-analytics:16.4.0'
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.9'
+
+    implementation 'com.stripe:stripe-android:8.0.0'
+    implementation 'com.braintreepayments:card-form:3.5.0'
+    implementation 'com.google.android.gms:play-services-wallet:16.0.1'
+    implementation 'com.google.firebase:firebase-messaging:17.4.0'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.palette:palette:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.jakewharton:butterknife:10.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.multidex:multidex:2.0.0'
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    implementation 'com.cepheuen.elegant-number-button:lib:1.0.2'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+    implementation 'com.afollestad:sectioned-recyclerview:0.2.3'
+    implementation 'com.google.android.gms:play-services-auth:18.1.0'
+    implementation 'com.google.android.gms:play-services-maps:16.1.0'
+    implementation 'com.google.android.gms:play-services-places:16.0.0'
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.pubnub:pubnub-gson:4.10.0'
+    implementation 'me.himanshusoni.chatmessageview:chat-message-view:1.0.3'
+    implementation 'com.fenchtose:tooltip:0.1.5'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.12.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.12.0'
+    implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
+    implementation 'com.facebook.android:facebook-android-sdk:4.38.1'
+    implementation 'com.github.amarjain07:StickyScrollView:1.0.2'
+    implementation 'me.philio:pinentryview:1.0.6'
+    implementation 'com.robinhood.ticker:ticker:1.2.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.sackcentury:shinebutton:0.1.9'
+    implementation 'com.roughike:bottom-bar:2.3.1'
+    implementation 'com.aurelhubert:ahbottomnavigation:2.1.0'
+    implementation 'com.ethanhua:skeleton:1.1.2'
+    implementation 'io.supercharge:shimmerlayout:2.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.intuit.sdp:sdp-android:1.0.5'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
+    implementation 'com.facebook.stetho:stetho-okhttp3:1.5.0'
+    implementation 'com.google.android.libraries.places:places:1.0.0'
+    implementation 'com.braintreepayments.api:braintree:2.22.0'
+
+    implementation 'com.facebook.android:facebook-login:4.40.0'
+
+
+//    implementation project(':onepay-release')
+
+//    implementation 'io.github.inflationx:calligraphy3:3.1.1'
+//    implementation 'io.github.inflationx:viewpump:2.0.3'
+
+}
+apply plugin: 'com.google.gms.google-services'
